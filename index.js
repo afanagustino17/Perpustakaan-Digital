@@ -45,7 +45,7 @@
                 localStorage.setItem('currentUser', JSON.stringify(currentUser));
                 showHomePage(user.username);
                 showMessage('Login successful!', 'success');
-                window.location.href = 'page2.html'
+                window.location.href = 'style2.3.html'
             } else {
                 // Failed login
                 showMessage('Invalid username or password!', 'error');
