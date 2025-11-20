@@ -28,6 +28,28 @@ body {
     overflow-x: hidden;
 }
 
+img {
+            max-width: 100%;
+            height: auto;
+}
+
+.container{
+            display: flex;
+            flex-direction: row;
+        }
+
+        @media (max-width: 768px){
+            .container{
+                flex-direction: column;
+            }
+            body{
+                font-size: 1.2rem;
+            }
+            #sidebar {
+                display: none;
+            }
+        }
+
 /* Background Animation */
 .bg-animation {
     position: fixed;
@@ -1089,4 +1111,3 @@ footer {
     color: var(--text-secondary);
     font-size: 0.9rem;
 }
-
